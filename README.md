@@ -10,3 +10,4 @@ Repositorio para la clase, laboratorios y tareas
 + :School_satchel: Tarea 1
 
 ### Semana 2
++ Tareas
