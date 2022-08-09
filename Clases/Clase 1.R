@@ -1,15 +1,13 @@
-# Jorge Alexis Luna Robles
-# 09/08/2022
-# Clase 1
-# sirve para realizar comentarios
-# operaciones basicas
-2 * 2 
+> # Jorge Alexis Luna Robles
+  > # 09/08/2022
+  > # Clase 1
+  > # sirve para realizar comentarios
+  > # operaciones basicas
+  > 2 * 2 
 
-h<-2
+h <- 2
+h * h
 
-h*h
+g <-c(3, 5, 8, 9)
 
-g<-c(3, 5, 8, 9)
-
-g*2
-
+g * 2
