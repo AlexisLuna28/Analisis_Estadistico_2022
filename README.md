@@ -4,5 +4,9 @@ Repositorio para la clase, laboratorios y tareas
 
 ## Contenido del curso
 
-### Semana 1
-* 09/08/2022 Preparacion de nuestro equipo de computo
+### :date:Semana 1 09/08/2022:
++ :notebook: Preparacion de nuestro equipo de computo
++ :computer: Laboratorio 1
++ :School_satchel: Tarea 1
+
+### Semana 2
