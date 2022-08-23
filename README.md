@@ -13,3 +13,8 @@ Repositorio para la clase, laboratorios y tareas
 + :notebook: Preparacion de nuestro equipo de computo
 + :computer: Laboratorio 2
 + :school_satchel: Tarea 2
+
+### :date: Semana 3 23/08/2022
++ :notebook: Preparacion de nuestro equipo de computo
++ :computer: Laboratorio 3
++ :school_satchel: Tarea 3
