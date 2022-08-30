@@ -1,0 +1,16 @@
+Nombre_Cientifico,Nombre_Comun,Familia_APG,Genero_APG,Forma_Biologica_Cat,FormaFuste,Condicion,Sitio,Diametro_Normal,Altura_Total,No_Individuo,No_Ramas,Azimut,Distancia
+Hampea trilobata,majagua,Malvaceae,Hampea,Arbusto,individuo recto con un fuste,Arbol vivo,1,8.3,6.4,14,16,85,6.7
+Neea psychotrioides,tadzi,Nyctaginaceae,Neea,Arbol,individuo recto con un fuste,Arbol vivo,1,10.4,8.6,21,23,124,8.09
+Lysiloma latisiliquum,tzalam,Fabaceae,Lysiloma,Arbol,individuo recto con un fuste,Arbol vivo,1,32.8,10.3,29,34,151,11.1
+Luehea speciosa,kaskat,Malvaceae,Luehea,Arbol,individuo recto con un fuste,Arbol vivo,1,8.2,7.9,35,40,207,9.45
+Sideroxylon salicifolium,zapote faisan,Sapotaceae,Sideroxylon,Arbusto,individuo recto con un fuste,Arbol vivo,1,9.8,6.8,44,49,293,8.4
+Quercus laeta,Encino,Fagaceae,Quercus,Arbol,Individuo curvo con dos o más fustes,Arbol vivo,4,13.5,4.6,7,7,81,10.36
+Quercus laeta,Encino,Fagaceae,Quercus,Arbol,Individuo curvo con dos o más fustes,Arbol vivo,4,14.5,5.9,8,8,100,10.16
+Quercus,ENCINO,Fagaceae,Quercus,Arbol,Individuo curvo con un fuste,Arbol vivo,1,15.5,10,17,17,205,9.4
+Pinus oocarpa,PINO,Pinaceae,Pinus,Arbol,individuo recto con un fuste,Arbol vivo,1,10.9,8.8,30,30,339,8.2
+Pinus oocarpa,PINO,Pinaceae,Pinus,Arbol,individuo recto con un fuste,Arbol vivo,1,12.1,10.3,3,3,24,8.8
+Pinus oocarpa,PINO,Pinaceae,Pinus,Arbol,individuo recto con un fuste,Arbol vivo,1,15.5,14.7,7,7,65,5.4
+Ficus obtusifolia,copó,Moraceae,Ficus,Arbol,individuo recto con un fuste,Arbol vivo,2,10.7,9.4,44,47,264,9.76
+Lysiloma latisiliquum,tzalam,Fabaceae,Lysiloma,Arbol,Individuo curvo con dos o más fustes,Arbol vivo,2,32.4,21.6,56,60,298,10.18
+Lysiloma latisiliquum,tzalam,Fabaceae,Lysiloma,Arbol,individuo recto con un fuste,Arbol muerto en pie,2,12.6,7.4,57,66,308,4.27
+Lysiloma latisiliquum,tzalam,Fabaceae,Lysiloma,Arbol,individuo recto con un fuste,Arbol vivo,2,16.2,19.7,61,70,331,8.49
