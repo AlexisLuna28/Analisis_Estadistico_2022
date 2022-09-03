@@ -1,4 +1,4 @@
-Arbol,Fecha,Especie,Posiciob,Vecinos,Diametro,Altura
+Arbol,Fecha,Especie,Posicion,Vecinos,Diametro,Altura
 1,12,F,C,4,15.3,14.78
 2,12,F,D,3,17.8,17.07
 3,9,C,D,5,18.2,18.28

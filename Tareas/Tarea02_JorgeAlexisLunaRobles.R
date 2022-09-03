@@ -1,74 +1,86 @@
 
 # Importar datos de trabajo -----------------------------------------------
 
-rm (list = ls ()) 
-datos <- read.csv("Tareas/cuadro1.csv", header = T) 
-head(datos) 
+conjunto <- read.csv("cuadro1.csv", header = T) 
 
-H.media <- subset(datos$Altura, datos$Altura <= mean (datos$Altura)) 
-H.16 <- subset (datos$Altura, datos$Altura < 16.5)
+head(conjunto) 
 
-Vecinos.3 <- subset(datos$Vecinos, datos$Vecinos <= 3)
-Vecinos.4 <- subset(datos$Vecinos, datos$Vecinos >4)  
+# Selección de datos
+H.media <- subset(conjunto$Altura, conjunto$Altura <= mean (conjunto$Altura))
+H.media
 
-Vecinos.3
-Vecinos.4 
+H.16 <- subset (conjunto$Altura, conjunto$Altura < 16.5)
+H.16
 
-DBH.media <- subset(datos$Diametro, datos$Diametro < mean (datos$Diametro)) 
-DBH.16 <- subset (datos$Diametro, datos$Diametro > 16)
+Vecinos_3 <- subset(conjunto$Vecinos, conjunto$Vecinos <= 3)
+Vecinos_3
 
-DBH.media
-DBH.16
+Vecinos_4 <- subset(conjunto$Vecinos, conjunto$Vecinos >4)
+Vecinos_4 
 
+DBH_media <- subset(conjunto$Diametro, conjunto$Diametro < mean (conjunto$Diametro))
+DBH_media
 
-nuevas.filas=data.frame(Arbol=c(51,52,53,54,55,56,57,58,59,60),
-                        Fecha=c(13,12,12,15,14,13,13,13,14,15),
-                        Especie=c("Cedro_rojo", "Tsuga_heterofila", "Douglasiana_verde", "Cedro_rojo", "Tsuga_heterofila", 
-                                  "Douglasiana_verde", "Cedro_rojo", "Tsuga_heterofila", "Douglasiana_verde", "Cedro_rojo"),
-                        Posicion=c("D", "S", "C", "C", "D", "D", "D", "S", "D", "D"),
-                        Vecinos=c(2, 3, 3, 2, 4, 4, 5, 5, 3, 3),
-                        Diametro=c(21, 23, 15, 18, 26, 14, 16, 14, 13, 12),
-                        Altura=c(11, 13, 13, 12, 11, 15, 13, 11, 14, 12)) 
-
-datos = rbind(datos, nuevas.filas) 
+DBH_16 <- subset (conjunto$Diametro, conjunto$Diametro > 16)
+DBH_16
 
 
-sum(with(datos, Diametro <= 16.9))   
+# Incluir la especie Cedro Rojo 
+Cedro_Rojo <- subset (conjunto$Especie, conjunto$Especie == "C")
+Cedro_Rojo
 
-sum(with(datos, Altura > 18.5))  
+# Incluir las especies Tsuga hetorófila y Douglasia verde
+Tsuga_Douglasia <- subset (conjunto$Especie, conjunto$Especie == conjunto$Especie[c(1, 4)])
+Tsuga_Douglasia
 
-#Diametro, Altura y Vecinos no dan los resultados 
+# Observaciones menores o iguales a 16.9 de Diámetro
+sum( with (conjunto, Diametro  <= 16.9))   
 
-hist(H.media) 
-hist(H.16)  
-hist($Altura) 
+# Observaciones mayores a 18.5 de altura
+sum( with (conjunto, Altura  > 18.5)) 
 
-hist($Vecinos)  
-hist(vecinos.3) 
-hist(Vecinos.4) 
+# Visualización de datos
+hist (conjunto$Altura, main ="Altura" , xlab="Datos de Altura", ylab= "Frecuencia", col="Blue")
 
+hist (H.media, main ="H.media" , xlab="Datos de Altura", ylab= "Frecuencia", col="Blue")
 
+hist (H.16, main ="H.16",  xlab="Datos de Altura", ylab= "Frecuencia", col="Blue")
+
+hist (conjunto$Vecinos, main ="Vecinos" , xlab="Datos de Vecinos", ylab= "Frecuencia", col="Red")
+
+hist (Vecinos_3, main ="Vecinos_3" , xlab="Datos de Vecinos", ylab= "Frecuencia", col="Red")
+
+hist (Vecinos_4, main ="Vecinos_4" , xlab="Datos de Vecinos", ylab= "Frecuencia", col="Red")
+
+hist (conjunto$Diametro, main ="Diámetro" ,xlab="Datos de Diámetro", ylab= "Frecuencia", col="Green")
+
+hist (DBH_media, main ="DBH_media" , xlab="Datos de Diámetro", ylab= "Frecuencia", col="Green")
+
+hist (DBH_16, main ="DBH_16" , xlab="Datos de Diámetro", ylab= "Frecuencia", col="Green")
+
+# Estadísticas básicas
+mean(conjunto$Altura)
 mean(H.media) 
-mean(H.16)  
-mean($Altura) 
+mean(H.16) 
 
-mean($Vecinos)  
-mean(Vecinos.3) 
-mean(Vecinos.4) 
-
-mean($Diametro) 
-mean(DBH.media) 
-mean(DBH.16) 
-
-
+sd(conjunto$Altura)
 sd(H.media)  
 sd(H.16)  
-sd($Altura) 
 
-sd($Vecinos)  
-sd(vecinos.3) 
-sd(Vecinos.4) 
 
-sd($Diametro) 
-sd(DBH.media) 
-sd(DBH.16) 
+mean(conjunto$Vecinos)  
+mean(Vecinos_3) 
+mean(Vecinos_4) 
+
+sd(conjunto$Vecinos)  
+sd(Vecinos_3) 
+sd(Vecinos_4)
+
+mean(conjunto$Diametro) 
+mean(DBH_media) 
+mean(DBH_16) 
+
+sd(conjunto$Diametro) 
+sd(DBH_media) 
+sd(DBH_16) 
+
