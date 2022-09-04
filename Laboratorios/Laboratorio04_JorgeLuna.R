@@ -93,7 +93,7 @@ h2 <- hist(inventario$Altura, xaxt= "n",
            main= "",
            las= 1, 
            ylim= c(0,14)) 
-axis(1, h1$mids) 
+axis(1, h2$mids) 
 
 
 
