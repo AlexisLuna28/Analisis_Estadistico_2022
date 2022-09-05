@@ -64,27 +64,21 @@ range
 #R= 2.1%
 
 library(dplyr)
-magnitud <- quakes%>%
-  filter(mag =="5.3")%>%
-  select(mag, stations)
+magnitud <- quakes%>% filter(mag =="5.3")
 porc_5.3 <- (length(magnitud$mag)/length(quakes$mag))*100
 porc_5.3
 
 #e. ¿Qué porcentaje de los terremotos tiene una magnitud igual o mayor a 5.0?
 #R= 19.8%
 
-magnitud <- quakes%>%
-  filter(mag >="5")%>%
-  select(mag, stations)
+magnitud <- quakes%>% filter(mag >="5")
 porc_5 <- (length(magnitud$mag)/length(quakes$mag))*100
 porc_5
 
 #f. ¿Qué porcentaje de los terremotos tienen una magnitud menor o igual a 4.6?#
 #R= 58.5%
 
-magnitud <- quakes%>%
-  filter(mag <="4.6")%>%
-  select(mag, stations)
+magnitud <- quakes%>% filter(mag <="4.6")
 porc_4.6 <- (length(magnitud$mag)/length(quakes$mag))*100
 porc_4.6
 
