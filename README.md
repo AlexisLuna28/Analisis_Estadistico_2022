@@ -22,7 +22,7 @@ Repositorio para la clase, laboratorios y tareas
 ### :date: Semana 4 30/08/2022
 + :notebook: Preparación de nuestro equipo de computo
 + :computer: [Laboratorio 4](Laboratorios/Laboratorio04_JorgeLuna.R)
-+ :school_satchel: Tarea 
++ :school_satchel: [Tarea 4](Tareas/Tarea04_JorgeAlexisLunaRobles.R) 
 
 ### :date: Semana 5 06/09/2022
 + :notebook: Preparación de nuestro equipo de computo
