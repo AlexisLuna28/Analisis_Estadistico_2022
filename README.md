@@ -12,7 +12,7 @@ Repositorio para la clase, laboratorios y tareas
 ### :date: Semana 2 16/08/2022
 + :notebook: Preparación de nuestro equipo de computo
 + :computer: Laboratorio 2
-+ :school_satchel: Tarea 2
++ :school_satchel: [Tarea 2](Tareas/Tarea02_JorgeAlexisLunaRobles.R)
 
 ### :date: Semana 3 23/08/2022
 + :notebook: Preparación de nuestro equipo de computo
