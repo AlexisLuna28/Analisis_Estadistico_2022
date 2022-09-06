@@ -16,20 +16,11 @@ Repositorio para la clase, laboratorios y tareas
 
 ### :date: Semana 3 23/08/2022
 + :notebook: Importar datos en formato csv de excel
-+ :computer: Laboratorio 3
-+ :school_satchel: Tarea 3
-
-### :date: Semana 4 30/08/2022
-+ :notebook: Descargar datos abiertos de internet
-+ :computer: Laboratorio 4
-+ :school_satchel: Tarea 
-
-+ :notebook: Preparación de nuestro equipo de computo
 + :computer: [Laboratorio 3](Laboratorios/Laboratorio02_JorgeLuna.R)
 + :school_satchel: [Tarea 3](Tareas/Tarea03_JorgeAlexisLunaRobles.R)
 
 ### :date: Semana 4 30/08/2022
-+ :notebook: Preparación de nuestro equipo de computo
++ :notebook: Descargar datos abiertos de internet
 + :computer: [Laboratorio 4](Laboratorios/Laboratorio04_JorgeLuna.R)
 + :school_satchel: [Tarea 4](Tareas/Tarea04_JorgeAlexisLunaRobles.R) 
 
