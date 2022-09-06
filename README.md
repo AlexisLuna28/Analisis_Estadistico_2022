@@ -15,7 +15,6 @@ Repositorio para la clase, laboratorios y tareas
 + :school_satchel: [Tarea 2](Tareas/Tarea02_JorgeAlexisLunaRobles.R)
 
 ### :date: Semana 3 23/08/2022
-<<<<<<< HEAD
 + :notebook: Importar datos en formato csv de excel
 + :computer: Laboratorio 3
 + :school_satchel: Tarea 3
