@@ -24,7 +24,7 @@ Repositorio para la clase, laboratorios y tareas
 + :notebook: Descargar datos abiertos de internet
 + :computer: Laboratorio 4
 + :school_satchel: Tarea 
-=======
+
 + :notebook: Preparación de nuestro equipo de computo
 + :computer: [Laboratorio 3](Laboratorios/Laboratorio02_JorgeLuna.R)
 + :school_satchel: [Tarea 3](Tareas/Tarea03_JorgeAlexisLunaRobles.R)
@@ -33,9 +33,9 @@ Repositorio para la clase, laboratorios y tareas
 + :notebook: Preparación de nuestro equipo de computo
 + :computer: [Laboratorio 4](Laboratorios/Laboratorio04_JorgeLuna.R)
 + :school_satchel: [Tarea 4](Tareas/Tarea04_JorgeAlexisLunaRobles.R) 
->>>>>>> a83bec976a11b70b88f28c00741cae93bea748b1
 
 ### :date: Semana 5 06/09/2022
 + :notebook: Pruebas de t student
 + :computer: Laboratorio 5
 + :school_satchel: Tarea 5
+
