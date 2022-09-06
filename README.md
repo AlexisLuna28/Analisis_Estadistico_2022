@@ -6,7 +6,7 @@ Repositorio para la clase, laboratorios y tareas
 
 ### :date:Semana 1 09/08/2022:
 + :notebook: Preparación de nuestro equipo de computo
-+ :computer: Laboratorio 1
++ :computer: [Laboratorio 1](Laboratorios/Laboratorio01_JorgeLuna.R)
 + :school_satchel: Tarea 1
 
 ### :date: Semana 2 16/08/2022
