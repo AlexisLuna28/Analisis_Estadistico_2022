@@ -119,7 +119,7 @@ t.test(tem$temp_media, mu = 24)
 
 # ¿Cuántos grados de libertad tiene el experimento? R= 845
 
-# ¿Cuál es la hipótesis aceptada? R= Hipótesis alternativas
+# ¿Cuál es la hipótesis aceptada? R= Hipótesis alternativa
 
 # ¿Existe evidencia de que el valor medio promedio de la temperatura observada es significativamente mayor a la establecida (24 grados)? R= No exite, porque El valor observado es menor
 
