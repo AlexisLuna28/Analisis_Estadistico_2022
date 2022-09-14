@@ -29,14 +29,14 @@ pt(costa.T, df = n-1) # Arriba se declaro "n" como número de costales observado
 
 t.test(costal, mu = 80)
 
-# ¿ Cual es el valor de p? valor de p = 0.01132175
+# ¿ Cual es el valor de p? pt = 0.01132175 y t.test p= 0.02264
 
 # ¿Cuántos grados de libertad tiene el experimento? R= 43
 
 # ¿Cuál es la hipótesis aceptada? R= Hipótesis alternativa
 
 
-# ¿Existe evidencia de que el valor medio promedio de los costales observados es menor (significativamente) a los que anuncia el producto? R= Si hay diferencia entre los valores
+# ¿Existe evidencia de que el valor medio promedio de los costales observados es menor (significativamente) a los que anuncia el producto? R= Si se presenta diferencia entre los valores
   
 
 # Ejercicio 2 -------------------------------------------------------------
@@ -68,7 +68,7 @@ pt(azufre.T, df = n-1)
 
 t.test(azufre, mu = 17.5)
 
-# ¿Cuál es el valor de p? pt =  0.9053257, t.test valor de p = 0.1893
+# ¿Cuál es el valor de p? pt =  0.9053257 y t.test valor de p = 0.1893
 
 # ¿Cuáles son los intervalos de confianza al 95 % ? R= 16.87912 - 20.53588
 
@@ -109,7 +109,7 @@ t.test(tem$temp_media, mu = 24)
 
 # Encuentre si el valor promedio de la temperatura (temp_media) registradas es significativamente mayor a la establecida (24 Grados).
 
-# ¿Cuál es el valor de p? con t.test el valor de p es = 0.03615 
+# ¿Cuál es el valor de p? pt= 0.01807384 y t.test p = 0.03615 
 
 # ¿Cuáles son los intervalos de confianza al 95 % ? R= 23.28216 - 23.97599
 
