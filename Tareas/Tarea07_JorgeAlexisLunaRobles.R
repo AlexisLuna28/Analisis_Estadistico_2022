@@ -29,8 +29,6 @@ pt(costa.T, df = n-1) # Arriba se declaro "n" como número de costales observado
 
 t.test(costal, mu = 80)
 
-shapiro.test(costal)
-
 # ¿ Cual es el valor de p? valor de p = 0.01132175
 
 # ¿Cuántos grados de libertad tiene el experimento? R= 43
@@ -69,8 +67,6 @@ azufre.T
 pt(azufre.T, df = n-1) 
 
 t.test(azufre, mu = 17.5)
-
-shapiro.test(azufre)
 
 # ¿Cuál es el valor de p? pt =  0.9053257, t.test valor de p = 0.1893
 
