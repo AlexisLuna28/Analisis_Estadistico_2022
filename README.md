@@ -26,7 +26,7 @@ Repositorio para la clase, laboratorios y tareas
 
 ### :date: Semana 5 06/09/2022
 + :notebook: Pruebas de t student
-+ :computer: Laboratorio 5
++ :computer: [Laboratorio 5](Laboratorios/Laboratorio05_JorgeLuna.R)
 + :school_satchel: [Tarea 5](Tareas/Tarea05_JorgeAlexisLunaRobles.R)
 
 ### :date: tarea 7  14/09/2022
