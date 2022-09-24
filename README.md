@@ -30,7 +30,7 @@ Repositorio para la clase, laboratorios y tareas
 + :school_satchel: Tarea 5
 
 ### :date: tarea 7  14/09/2022
-+ :school_satchel: Tarea 7
++ :school_satchel: [Tarea 7](Tareas/Tarea05_JorgeAlexisLunaRobles.R)
 
 ### :date: Semana 6 20/09/2022
 + :notebook: Pruebas de correlacion
