@@ -29,3 +29,11 @@ Repositorio para la clase, laboratorios y tareas
 + :computer: Laboratorio 5
 + :school_satchel: Tarea 5
 
+### :date: tarea 7  14/09/2022
++ :school_satchel: Tarea 7
+
+### :date: Semana 6 20/09/2022
++ :notebook: Pruebas de correlacion
++ :computer: Laboratorio 6
++ :school_satchel: Tarea 6
+
