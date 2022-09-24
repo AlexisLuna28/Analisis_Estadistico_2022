@@ -34,6 +34,6 @@ Repositorio para la clase, laboratorios y tareas
 
 ### :date: Semana 6 20/09/2022
 + :notebook: Pruebas de correlacion
-+ :computer: Laboratorio 6
++ :computer: [Laboratorio 6](Laboratorios/Laboratorio06_JorgeLuna.R)
 + :school_satchel: Tarea 6
 
