@@ -2,7 +2,7 @@
 
 Repositorio para la clase, laboratorios y tareas
 
-## Contenido del curso
+### Contenido del curso
 
 ### :date:Semana 1 09/08/2022:
 + :notebook: Preparación de nuestro equipo de computo
