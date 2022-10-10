@@ -26,16 +26,16 @@ Repositorio para la clase, laboratorios y tareas
 
 ### :date: Semana 5 06/09/2022
 + :notebook: Pruebas de t student
-+ :computer: Laboratorio 5
-+ :school_satchel: Tarea 5
++ :computer: [Laboratorio 5](Laboratorios/Laboratorio05_JorgeLuna.R)
++ :school_satchel: [Tarea 5](Tareas/Tarea05_JorgeAlexisLunaRobles.R)
 
 ### :date: tarea 7  14/09/2022
-+ :school_satchel: Tarea 7
++ :school_satchel: [Tarea 7](Tareas/Tarea05_JorgeAlexisLunaRobles.R)
 
 ### :date: Semana 6 20/09/2022
 + :notebook: Pruebas de correlacion
-+ :computer: Laboratorio 6
-+ :school_satchel: Tarea 6
++ :computer: [Laboratorio 6](Laboratorios/Laboratorio06_JorgeLuna.R)
++ :school_satchel: [Tarea 6](Tareas/Tarea06_JorgeAlexisLunaRobles.R)
 
 ### :date: Semana 7 04/10/2022
 + :notebook: Analisis de varianza (ANOVA)
