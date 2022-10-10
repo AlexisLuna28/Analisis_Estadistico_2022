@@ -16,3 +16,4 @@ viv$Tratamiento <- as.factor(viv$Tratamiento)
 summary(viv)
 
 
+
