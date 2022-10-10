@@ -55,3 +55,63 @@ t.test(viv$IE, mu = 0.77)
 # Para realizar una transformación de datos se puede aplicar la funcion de log(alpha)+0.05
 
 
+data("chickwts")
+summary(chickwts)
+hist(chickwts$weight)
+# Hipotesis: no existe diferencia significativa entre el peso de ganancia de los pollos en relacion al valor establecido por el producto (300 gm)
+length(chickwts$weight)
+shapiro.test(chickwts$weight)
+
+t.test(chickwts$weight, mu = 300, alternative = "less") # Se agrega less para declarar que el producto tiene menor del que presenta lo establecide o mayo se pone "greater"
+
+
+# Prubas para dos muestras (dependientes e independientes) ----------------
+
+# Para analizar dos muestras se realiza un ANOVA para calcular la varianza
+
+# Dependientes e independientes llevan un significado en las pruebas de t:
+# Dependientes: Individuos con el mismo tratamiento 
+# Independientes: Individuos con mismas variables pero en diferente grupos
+
+
+#  Dos muestras independientes --------------------------------------------
+
+boxplot(viv$IE ~ viv$Tratamiento)
+
+shapiro.test(viv$IE)
+
+var.test(viv$IE ~ viv$Tratamiento)
+
+t.test(viv$IE ~ viv$Tratamiento, var.equal = T)
+
+# Los grados de libertad son (n- 2) para este caso
+# Para determinar si hay diferencias significativas se puede realizar por la tabla de t
+# T calculada menor a la T tabulada, no presenta diferencias significativas
+# T calculada mayor a la T tabulada, si presenta diferencias significativas
+
+
+invent <- read.csv("Clases/inventario.csv", header = T)
+invent$Tratamiento <- as.factor(invent$Tratamiento)
+invent$Fecha <- as.factor(invent$Fecha)
+
+boxplot(invent$Diametro ~ invent$Tratamiento)
+
+shapiro.test(invent$Diametro)
+var.test(invent$Diametro ~ invent$Tratamiento)
+
+t.test(invent$Diametro ~ invent$Tratamiento, var.equal = T)
+
+boxplot(invent$Dcopa ~ invent$Tratamiento)
+
+shapiro.test(invent$Dcopa)
+var.test(invent$Dcopa ~ invent$Tratamiento)
+t.test(invent$Dcopa ~ invent$Tratamiento, var.equal = T)
+
+# Dos muestras dependientes -----------------------------------------------
+
+boxplot(invent$Kilogramo ~ invent$Fecha)
+
+shapiro.test(invent$Kilogramo)
+var.test(invent$Kilogramo ~ invent$Fecha)
+
+t.test(invent$Kilogramo ~ invent$Fecha, paired = TRUE) #Paired para indicar que son variables dependientes
