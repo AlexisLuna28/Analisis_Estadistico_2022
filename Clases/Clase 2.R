@@ -1,8 +1,6 @@
 # Jorge Alexis Luna Robles
 # 16/08/2022
-# Clase 2
-
-
+# Ingresar datos a R
 
 # ingresar datos ----------------------------------------------------------
 
