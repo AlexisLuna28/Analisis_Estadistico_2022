@@ -74,7 +74,7 @@ lista
 
 # R= Es una variable cualitativa, ya que se esta dando una condición o categorización para identificar las diversas redes sociales, en las cuales se expresan opiniones de las personas.
 
-
+ 
 # Problema 4 --------------------------------------------------------------
 
 # ¿Cual es la cantidad promedio de horas que los estudiantes de universidaded publicas reabaja cada semana?
