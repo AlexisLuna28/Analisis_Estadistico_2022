@@ -10,7 +10,7 @@ Repositorio para la clase, laboratorios y tareas
 + :school_satchel: [Tarea 1](Tareas/Tarea01_JorgeAlexisLunaRobles.R)
 
 ### :date: Semana 2 16/08/2022
-+ :notebook: Ingresar datos a R
++ :notebook: [Ingresar datos a R](Clases/Clase 2.R)
 + :computer: Laboratorio 2
 + :school_satchel: [Tarea 2](Tareas/Tarea02_JorgeAlexisLunaRobles.R)
 
