@@ -37,3 +37,6 @@ Repositorio para la clase, laboratorios y tareas
 + :computer: Laboratorio 6
 + :school_satchel: Tarea 6
 
+### :date: Semana 7 04/10/2022
++ :notebook: Analisis de varianza (ANOVA)
+
